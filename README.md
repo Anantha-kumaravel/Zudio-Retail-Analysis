@@ -81,16 +81,22 @@ The Power BI report is divided into four distinct, interactive pages:
 * **Insights:** Monthly sales and profit margin trends, revenue by payment mode, and order status distribution (Completed, Returned, Cancelled).
 
 ### 2. Product Performance
+<img width="1138" height="647" alt="Screenshot 2026-08-19 210205" src="https://github.com/user-attachments/assets/459f05d6-4819-45da-a695-a6fc1abac786" />
+
 
 * **KPIs:** Total Products, Total Categories, Total Brands, Average Product Price.
 * **Insights:** Sales by category (Women, Men, Kids), top-performing clothing types (Hoodies, Jeans, Tops), and profit margins by brand.
 
 ### 3. Store Performance
+<img width="1162" height="654" alt="Screenshot 2026-08-19 210250" src="https://github.com/user-attachments/assets/e3d3ba78-3526-4360-abb3-cdeb44eca14c" />
+
 
 * **KPIs:** Total Stores, Total Staff, Average Staff per Store, Total Selling Area.
 * **Insights:** Geographic distribution of locations, sales performance by store tier, and the correlation between staff count and total revenue.
 
 ### 4. Customer Performance
+<img width="1152" height="642" alt="Screenshot 2026-08-19 210305" src="https://github.com/user-attachments/assets/6450a943-1764-4d29-b858-c9ce59038063" />
+
 
 * **KPIs:** Total Customers, Active Cities, Active States, Average Customers per State.
 * **Insights:** Yearly customer acquisition trends, regional density maps, and identification of the top 10 highest-value customers.
