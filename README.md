@@ -74,6 +74,8 @@ Before building the dashboard, the dataset underwent rigorous validation and cle
 The Power BI report is divided into four distinct, interactive pages:
 
 ### 1. Sales Overview
+<img width="1159" height="655" alt="Screenshot 2026-08-19 210138" src="https://github.com/user-attachments/assets/727a5a64-ccf9-43bf-b105-d431800d832b" />
+
 
 * **KPIs:** Total Sales, Total Profit, Total Orders, Completion Rate, Average Selling Price.
 * **Insights:** Monthly sales and profit margin trends, revenue by payment mode, and order status distribution (Completed, Returned, Cancelled).
