@@ -3,35 +3,62 @@
 -- Replace/add column definitions to exactly match the final project schema.
 
 USE Zudio_Retail_Analytics;
-
-CREATE TABLE Stores (
-    store_id INT PRIMARY KEY,
-    store_name VARCHAR(100),
-    city VARCHAR(100),
-    state VARCHAR(100),
-    tier VARCHAR(50),
-    staff_count INT
+CREATE TABLE stores(
+store_id INT,
+store_name VARCHAR(100),
+city VARCHAR(100),
+state VARCHAR(100),
+tier VARCHAR(100),
+phone INT,
+email VARCHAR(100),
+open_date DATE,
+selling_area_sqft INT,
+staff_count int
 );
 
-CREATE TABLE Customers (
-    customer_id INT PRIMARY KEY
+CREATE TABLE products(
+product_id INT,
+product_name VARCHAR(100),
+category VARCHAR(100),
+clothing_type VARCHAR(100),
+brand VARCHAR(100),
+list_price DECIMAL
 );
 
-CREATE TABLE Products (
-    product_id INT PRIMARY KEY
+CREATE TABLE orders(
+order_id INT,
+customer_id INT,
+store_id INT,
+order_date DATE,
+order_status VARCHAR(100),
+payment_mode VARCHAR(100)
 );
 
-CREATE TABLE Orders (
-    order_id INT PRIMARY KEY,
-    customer_id INT,
-    store_id INT,
-    order_date DATE,
-    order_status VARCHAR(50),
-    payment_mode VARCHAR(50)
+CREATE TABLE order_items(
+order_item_id INT,
+order_id INT,
+product_id INT,
+quantity INT,
+list_price DECIMAL,
+discount_pct INT,
+selling_price DECIMAL,
+profit DECIMAL
 );
 
-CREATE TABLE Order_Items (
-    order_item_id INT PRIMARY KEY,
-    order_id INT,
-    product_id INT
+CREATE TABLE customers(
+customer_id INT,
+first_name VARCHAR(100),
+last_name VARCHAR(100),
+email VARCHAR(100),
+phone VARCHAR(100),
+city VARCHAR(100),
+state VARCHAR(100),
+signup_date date
 );
+
+
+
+
+
+
+
