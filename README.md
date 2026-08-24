@@ -4,7 +4,7 @@
 
 **Author:** Anantha Kumaravel R
 
-**Role:** Data & Business Analyst with AI at Anudip Pallavaram | AI & Data Science Enthusiast
+**Course:** Data & Business Analyst with AI at Anudip Pallavaram | AI & Data Science Enthusiast
 
 **Industry:** Fashion Retail / E-Commerce
 
