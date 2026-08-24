@@ -2,7 +2,7 @@
 
 # Zudio Retail Sales Performance Analytics Dashboard
 
-**Author:** Anantha Kumaravel R
+**Author:** Anantha Kumaravel R / AF05261077
 
 **Course:** Data & Business Analyst with AI at Anudip Pallavaram | AI & Data Science Enthusiast
 
